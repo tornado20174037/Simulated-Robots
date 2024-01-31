@@ -1,0 +1,3 @@
+Main strategries 
+
+location：code\catkin_ws\src\Mission_Coordination_project\evry_project_strategy
