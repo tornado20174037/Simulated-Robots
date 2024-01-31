@@ -4,3 +4,8 @@ The simulated robots are defined as follow:
   - An ultrasonic sensor is embedded, with a limited range (5 meters)
   - 2 motorized wheels allow the robot to operate in the environment
   - Its current pose in the environment is known (Position and orientation)
+Strategy 1:
+When an obstacle is detected, the robot stops and turns by a specified angle. Then, it continues to move forward with the new direction for 3 seconds. Then it turns to the opposite direction and move forward.\
+
+Strategy 2:
+When an obstacle is detected, the robot stops and turns by a specified angle. Then, it continues to move forward while gradually adjusting its heading to align with the target direction. Once the adjustment is complete, the robot proceeds forward.
